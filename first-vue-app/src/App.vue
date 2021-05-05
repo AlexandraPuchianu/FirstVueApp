@@ -1,6 +1,9 @@
 <template>
   <div id="app">
     <HeaderComponent/>
+    <div class="logo">
+      <img alt="Google Logo" src="./assets/logo.png">
+    </div>
   </div>
 </template>
 
@@ -24,4 +27,13 @@ export default {
   text-align: center;
   color: #2c3e50;
 }
+.logo{
+    justify-content: center;
+    position: relative;
+    display: inline-flex;
+    width: 100%;
+    height: 5.7rem;
+    margin: 0 auto;
+    margin-top: 6rem;
+  }
 </style>
