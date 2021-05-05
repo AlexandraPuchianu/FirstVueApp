@@ -48,6 +48,9 @@
     border-bottom: 1px solid black;
 }
 
+.menu{
+    align-self: center;
+}
 .menu a{
     border-radius: 50%;
     margin-left: 2rem;
