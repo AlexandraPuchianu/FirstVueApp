@@ -5,19 +5,22 @@
       <img alt="Google Logo" src="./assets/logo.png">
     </div>
     <SearchComponent/>
+    <ButtonsComponent/>
   </div>
 </template>
 
 <script>
 import HeaderComponent from './components/HeaderComponent.vue'
 import SearchComponent from './components/SearchComponent.vue'
+import ButtonsComponent from './components/ButtonsComponent.vue'
 
 
 export default {
   name: 'App',
   components: {
     HeaderComponent,
-    SearchComponent
+    SearchComponent,
+    ButtonsComponent
   }
 }
 </script>
