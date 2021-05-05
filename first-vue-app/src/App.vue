@@ -6,6 +6,7 @@
     </div>
     <SearchComponent/>
     <ButtonsComponent/>
+    <OtherLanguageComponent/>
   </div>
 </template>
 
@@ -13,6 +14,7 @@
 import HeaderComponent from './components/HeaderComponent.vue'
 import SearchComponent from './components/SearchComponent.vue'
 import ButtonsComponent from './components/ButtonsComponent.vue'
+import OtherLanguageComponent from './components/OtherLanguageComponent.vue'
 
 
 export default {
@@ -20,7 +22,8 @@ export default {
   components: {
     HeaderComponent,
     SearchComponent,
-    ButtonsComponent
+    ButtonsComponent,
+    OtherLanguageComponent
   }
 }
 </script>
