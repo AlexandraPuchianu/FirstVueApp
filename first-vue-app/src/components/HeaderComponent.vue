@@ -5,7 +5,7 @@
             <a id="imaginiLink" href="https://www.google.ro/imghp?hl=ro&ogbl" target="_top">Imagini</a>
         </div>
         <div class="menu">
-            <a id="menuButton" role="button"><i class="fa fa-bars fa-lg"></i></a>
+            <a id="menuButton" role="button"><menu-icon/></a>
         </div>
         <div class="connectButton">
             <a href="https://accounts.google.com/signin/v2/identifier?hl=ro&passive=true&continue=https%3A%2F%2Fwww.google.com%2F&ec=GAZAmgQ&flowName=GlifWebSignIn&flowEntry=ServiceLogin"><button class="button">Conectați-vă</button></a>
@@ -14,8 +14,13 @@
 </template>
 
 <script>
+    import MenuIcon from 'vue-material-design-icons/Menu.vue'
+ 
     export default {
-        name: 'HeaderComponent'
+        name: 'HeaderComponent',
+        components: {
+            MenuIcon
+        }
     }
 </script>
 
@@ -28,8 +33,8 @@
     display: inline-flex;
     align-items: baseline;
     justify-content: flex-end;
-    padding: 1rem;
-    padding-right: 1rem;
+    padding: 0.3rem;
+    padding-right: 0.5rem;
 }
 .header a{
     text-decoration: none;
