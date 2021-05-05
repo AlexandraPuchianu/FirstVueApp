@@ -4,17 +4,20 @@
     <div class="logo">
       <img alt="Google Logo" src="./assets/logo.png">
     </div>
+    <SearchComponent/>
   </div>
 </template>
 
 <script>
 import HeaderComponent from './components/HeaderComponent.vue'
+import SearchComponent from './components/SearchComponent.vue'
 
 
 export default {
   name: 'App',
   components: {
-    HeaderComponent
+    HeaderComponent,
+    SearchComponent
   }
 }
 </script>
