@@ -7,6 +7,7 @@
     <SearchComponent/>
     <ButtonsComponent/>
     <OtherLanguageComponent/>
+    <FooterComponent/>
   </div>
 </template>
 
@@ -15,6 +16,8 @@ import HeaderComponent from './components/HeaderComponent.vue'
 import SearchComponent from './components/SearchComponent.vue'
 import ButtonsComponent from './components/ButtonsComponent.vue'
 import OtherLanguageComponent from './components/OtherLanguageComponent.vue'
+import FooterComponent from './components/FooterComponent.vue'
+
 
 
 export default {
@@ -23,7 +26,8 @@ export default {
     HeaderComponent,
     SearchComponent,
     ButtonsComponent,
-    OtherLanguageComponent
+    OtherLanguageComponent,
+    FooterComponent
   }
 }
 </script>
