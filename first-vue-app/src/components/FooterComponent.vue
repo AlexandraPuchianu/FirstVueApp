@@ -25,15 +25,14 @@
 
 <style>
 .footer{
-    position: fixed;
-    left: 0;
+    position: absolute;
+    right: 0;
     bottom: 0;
-    width: 100%;
+    left: 0;
 }
 .country{
     height: 3rem;
     width: 97.8vw;
-    margin-top: 12.6rem;
     border-bottom: 1px solid #dadce0;
     font-size: 15px;
     padding: 0.2rem 0rem 0 2rem;
